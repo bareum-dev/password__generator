@@ -5,6 +5,10 @@
   font-size: 1.2rem;
 }
 
+*::selection {
+  background-color: rgb(86, 181, 184);
+}
+
 input {
   outline: none;
 }
@@ -46,9 +50,13 @@ h1 {
 }
 
 .password {
+  width: 400px;
+  max-width: 400px;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 2rem;
+  letter-spacing: 0.05rem;
+  text-align: center;
 }
 
 .controls {
